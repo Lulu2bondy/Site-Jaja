@@ -182,3 +182,24 @@ footer {
     margin-top: 40px;
     color: #6b7280;
 }
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery article {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+}
