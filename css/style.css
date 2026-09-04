@@ -210,8 +210,8 @@ footer {
 ========================= */
 
 header {
-    background-color: rgb(255, 255, 255);
-    min-height: 90px;
+    background-color: rgb(223, 137, 9);
+    min-height: 120px;
     padding: 10px 40px;
 
     display: grid;
@@ -230,7 +230,7 @@ header {
 }
 
 .logo img {
-    height: 70px;
+    height: 90px;
     width: auto;
     display: block;
 }
