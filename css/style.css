@@ -212,7 +212,7 @@ footer {
 
 header {
     background-color: rgb(223, 137, 9);
-    min-height: 200px;
+    min-height: 220px;
     padding: 10px 40px;
 
     display: grid;
@@ -222,11 +222,9 @@ header {
     border-bottom: 1px solid #3972e6;
 }
 
-/* LOGO À GAUCHE */
-
 .logo {
     display: flex;
-    align-items:left;
+    align-items: center;
     justify-self: start;
 }
 
@@ -235,7 +233,6 @@ header {
     width: auto;
     display: block;
 }
-
 /* NOM AU CENTRE */
 
 header h1 {
